@@ -24,7 +24,7 @@
           <Menu mnemonicParsing="false" text="Cadastros">
             <items>
               <MenuItem mnemonicParsing="false" onAction="#abrirCadastroAluno" text="Alunos" />
-                  <MenuItem mnemonicParsing="false" onAction="#Fechar" text="Fechar" />
+                  <MenuItem fx:id="btnFechar" mnemonicParsing="false" onAction="#Fechar" text="Fechar" />
             </items>
           </Menu>
         </menus>

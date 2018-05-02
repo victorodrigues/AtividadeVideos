@@ -79,7 +79,7 @@ catch(IOException e){
 
     @FXML
     private void Fechar(ActionEvent event) {
-    System.exit (0);
+     System.exit(0);
     }
     
     @Override
