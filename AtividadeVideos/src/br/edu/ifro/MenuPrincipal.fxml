@@ -7,10 +7,18 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="242.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
-        <Button fx:id="button" layoutX="231.0" layoutY="161.0" onAction="#handleButtonAction" text="Clique Aqui!" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="109.0" layoutY="81.0" />
+      <TextField fx:id="txtNumero1" layoutX="21.0" layoutY="42.0" />
+      <TextField fx:id="txtNumero2" layoutX="21.0" layoutY="116.0" />
+      <TextField fx:id="txtResultado" editable="false" layoutX="21.0" layoutY="186.0" />
+      <Label layoutX="21.0" layoutY="25.0" text="Primeiro Número" />
+      <Label layoutX="20.0" layoutY="93.0" text="Segundo Número" />
+      <Label layoutX="21.0" layoutY="169.0" text="Resultado" />
+      <Button layoutX="232.0" layoutY="92.0" mnemonicParsing="false" onAction="#Subtrair" prefHeight="37.0" prefWidth="98.0" text="Subtrair" />
+      <Button layoutX="232.0" layoutY="42.0" mnemonicParsing="false" onAction="#Somar" prefHeight="37.0" prefWidth="98.0" text="Somar" />
+      <Button layoutX="232.0" layoutY="140.0" mnemonicParsing="false" onAction="#Multiplicar" prefHeight="37.0" prefWidth="98.0" text="Multiplicar" />
+      <Button layoutX="232.0" layoutY="188.0" mnemonicParsing="false" onAction="#Dividir" prefHeight="37.0" prefWidth="98.0" text="Dividir" />
     </children>
 </AnchorPane>
